@@ -35,6 +35,8 @@ body {
    }
 }
 
+
+
 div.scroll {
    margin: 4px, 4px;
    padding: 4px;
@@ -60,10 +62,23 @@ h3 {
    align-items: center;
    justify-content: center;
 }
-#main img {
+
+
+#main {
    border-radius: 50%;
    width: 20%;
    height: auto;
+}
+.wrapper{
+   width: 18rem;
+   /* display: inline-block; */
+   display: flex;
+   justify-content: space-around;
+}
+
+.wrapper a img {
+   width: 4rem;
+   height: 4rem;
 }
 
 .info-section {
@@ -81,7 +96,4 @@ h3 {
     #main img {
         width: 40%;
     }
-}
-.wrapper{
-   display: inline-block;
 }
