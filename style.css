@@ -34,9 +34,6 @@ body {
       border-color: orange;
    }
 }
-
-
-
 div.scroll {
    margin: 4px, 4px;
    padding: 4px;
@@ -97,3 +94,4 @@ h3 {
         width: 40%;
     }
 }
+
