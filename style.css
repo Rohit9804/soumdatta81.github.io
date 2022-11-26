@@ -34,6 +34,9 @@ body {
       border-color: orange;
    }
 }
+.a{
+   background-color: white;
+}
 div.scroll {
    margin: 4px, 4px;
    padding: 4px;
@@ -95,3 +98,23 @@ h3 {
     }
 }
 
+.my-skills{
+   background-color: black;
+   padding-top:70px ;
+   padding-bottom: 70px;
+   text-align: center;
+}
+
+.my-skills:after{
+   content: '';
+   display: block;
+      clear: both;
+}
+
+
+.my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right{
+      width: 33.33333333333%;
+      display: inline-block;
+      float: left;
+
+}
